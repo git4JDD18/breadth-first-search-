@@ -1,1 +1,4 @@
-# breadth-first-search algorithm in java
+This file contains 
+1) Breadth first search algorithm
+2) Depth first search 
+3)
