@@ -18,6 +18,7 @@ import java.util.Set;
 import java.util.Stack;
 import java.util.Map;
 import java.lang.String;
+import java.util.Collections;
 
 
 
@@ -335,7 +336,7 @@ public class Search{
 					List<String> newPath = new ArrayList<String>(currentPath);
 					newPath.add(currentNode.getName());
 					List<String> adj_u = mapRelation.get(currentNode.getName());
-
+					Collections.reverse(adj_u);
 					if (adj_u != null) 
 					{	
 						//boolean dFound= false;
